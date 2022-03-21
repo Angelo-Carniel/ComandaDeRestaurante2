@@ -1,0 +1,19 @@
+@model ItemPedido
+
+<form asp-action="Formulario" method="POST">
+    <p>
+        <label asp-for="Descricao">Descrição:</label>
+        <input asp-for="Descricao" />
+    </p>
+    <p>
+        <label asp-for="Quantidade">Quantidade:</label>
+        <input asp-for="Quantidade" />
+    </p>
+    <p>
+        <label asp-for="Valor">Valor:</label>
+        <input asp-for="Valor" />
+    </p>
+
+    <input type="submit" value="Confirmar"/>
+
+</form>
